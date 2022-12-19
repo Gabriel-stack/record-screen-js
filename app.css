@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	font-family: sans-serif;
+}
+
+h1{
+	text-align: center;
+	margin-top: 20px;
+}
+
+button{
+	width: 200px;
+	padding: 1rem;
+	font-weight: bold;
+	border: none;
+	background-color: transparent;
+	border-radius: 5px;
+}
+button:nth-child(1){
+	cursor: pointer;
+	background-color:#18e370;
+}
+button:nth-child(2){
+	border: 1px solid #cccccc;
+	cursor: not-allowed;
+}
+button:nth-child(2):disabled{
+	cursor: pointer;
+	border: 1px solid #cccccc;
+	cursor: not-allowed;
+}
+.main-controls{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+video{
+	width: 400px;
+	height: 200px;
+	margin: 15px 0;
+}
